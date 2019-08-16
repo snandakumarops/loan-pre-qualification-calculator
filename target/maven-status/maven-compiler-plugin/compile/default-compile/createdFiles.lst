@@ -1,0 +1,4 @@
+org/acme/restclient/OnboardingService.class
+org/acme/restclient/OnboardingResource.class
+org/acme/restclient/TaskSummary.class
+org/acme/restclient/Customer.class
