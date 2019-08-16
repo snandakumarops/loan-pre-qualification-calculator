@@ -84,8 +84,10 @@
   var taskId;
   var app = angular.module('myApp1', []);
 app.controller('FormController1', function($scope,$http) {
+
   $scope.test = "unassigned";
   var baseURL = window.location.protocol + '//' + window.location.host;
+
 $scope.submitQuestionnaire = function(customer) {
 
     $scope.test = "assigned";
