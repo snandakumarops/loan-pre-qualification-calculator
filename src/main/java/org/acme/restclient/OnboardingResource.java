@@ -129,6 +129,7 @@ public class OnboardingResource {
         ObjectMapper mapper = new ObjectMapper();
         System.out.println("docId" + docId);
         String document = onboardingService.getCaseDoc(docId);
+        System.out.println(document);
         Map<String, String> mapValue = mapper.readValue(document, Map.class);
 
 
