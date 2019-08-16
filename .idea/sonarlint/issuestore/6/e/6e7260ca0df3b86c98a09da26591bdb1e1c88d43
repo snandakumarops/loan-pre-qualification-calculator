@@ -1,0 +1,32 @@
+
+Psquid:S1481"/Remove this unused "caseReturn" local variable.(ÿÍ úşÿÿÿÿ8øÏªåÆ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(®÷ô•şÿÿÿÿ8Æâ€¨È-
+=squid:S1643"Use a StringBuilder instead.(Œ¬ã‡ıÿÿÿÿ8ÜïÃœÈ-
+²%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(¡¢¸˜úÿÿÿÿ8ÜïÃœÈ-
+²%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(­âËùÿÿÿÿ8ïûÉ§È-
+­%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(şç ›8º—¨È-
+fsquid:S3027"JPut single-quotes around '#' to use the faster "lastIndexOf(char)" method.(îÙì8ÜïÃœÈ-
+=squid:S1643"Use a StringBuilder instead.(ÓàÖ”øÿÿÿÿ8ÜïÃœÈ-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(­âËùÿÿÿÿ8ÜïÃœÈ-
+Ysquid:S1197"8Move the array designator from the variable to the type.(£ı’Œÿÿÿÿÿ8ÜïÃœÈ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‡‡ïúÿÿÿÿ8ËíêœÈ-
+lsquid:S1858"K"customer" is already a string, there's no need to call "toString()" on it.(ã¡÷Öüÿÿÿÿ8©‘»ãÆ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(šıÂ–úÿÿÿÿ8‘’Ò§È-
+²%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(À³îÒúÿÿÿÿ8¼¬ò¯È-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÜïÃœÈ-
+²%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(µ„ŠÌşÿÿÿÿ8ÜïÃœÈ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†ªõ–8ÜïÃœÈ-
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(À³îÒúÿÿÿÿ8¼¬ò¯È-
+ssquid:S1192"RDefine a constant instead of duplicating this literal "task-proc-inst-id" 4 times.(³´£Ãùÿÿÿÿ8ÜïÃœÈ-
+€squid:S1488"eImmediately return this expression instead of assigning it to the temporary variable "finalFileName".(êÁË8ÜïÃœÈ-
+Gsquid:S1481"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8ÜïÃœÈ-
+_squid:S1854">Remove this useless assignment to local variable "caseReturn".(ÿÍ úşÿÿÿÿ8øÏªåÆ-
+ssquid:UselessImportCheck"KRemove this unused import 'org.jboss.resteasy.annotations.jaxrs.PathParam'.(Ìª¬I8²¹ŞœÈ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ÜïÃœÈ-
+Qsquid:S1854"5Remove this useless assignment to local variable "i".(Ì‚ˆÌ8ÜïÃœÈ-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8¼¬ò¯È-
+Csquid:S1905"'Remove this unnecessary cast to "List".(´ß¢Æ8ÜïÃœÈ-

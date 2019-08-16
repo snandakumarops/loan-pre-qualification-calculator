@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.restclient.CountriesResourceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.899 s <<< FAILURE! - in org.acme.restclient.CountriesResourceTest
+testCountryNameEndpoint  Time elapsed: 1.413 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.acme.restclient.CountriesResourceTest.testCountryNameEndpoint(CountriesResourceTest.java:17)
+
+testCountryNameAsyncEndpoint  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.acme.restclient.CountriesResourceTest.testCountryNameAsyncEndpoint(CountriesResourceTest.java:31)
+
