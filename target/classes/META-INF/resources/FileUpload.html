@@ -47,7 +47,7 @@ var baseURL = window.location.protocol + '//' + window.location.host;
             method: "GET"
             })
             .then(function(response) {
-            alert($scope.tasks);
+
               $scope.tasks = response.data;
 
             });
