@@ -3,7 +3,967 @@
   <component name="ChangeListManager">
     <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/FileUpload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/LegalReview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/javascripts/bootstrap/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/eyeglass-exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/bootstrap-sass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/css/fileinput-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/css/fileinput-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/css/fileinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/css/fileinput.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/img/loading-sm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/fileinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/fileinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/LANG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/cr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/kr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/kz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/plugins/piexif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/plugins/piexif.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/plugins/purify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/plugins/purify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/plugins/sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/js/plugins/sortable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/nuget/Package.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/nuget/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/scss/fileinput-rtl.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/scss/fileinput.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/scss/themes/explorer-fa/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/scss/themes/explorer-fas/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/scss/themes/explorer/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fa/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fa/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fa/theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fa/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fas/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fas/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fas/theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer-fas/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer/theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/explorer/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/fa/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/fa/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/fas/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/fas/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/gly/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/fileinput/themes/gly/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/var/rmargin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/js/bootstrap-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/js/patternfly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/javascripts/bootstrap/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/eyeglass-exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/bootstrap-sass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Bold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Bold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Bold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Bold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-BoldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-BoldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-BoldItalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBoldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBoldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-ExtraBoldItalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Italic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Italic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Italic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Italic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Light-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Light-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Light-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Light-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-LightItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-LightItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-LightItalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Semibold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Semibold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Semibold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Semibold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-Semibold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-SemiboldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-SemiboldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-SemiboldItalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-SemiboldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/OpenSans-SemiboldItalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/PatternFlyIcons-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/PatternFlyIcons-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/PatternFlyIcons-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/PatternFlyIcons-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/Logo_Horizontal_Reversed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/apple-touch-icon-precomposed-144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/apple-touch-icon-precomposed-152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/apple-touch-icon-precomposed-180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/apple-touch-icon-precomposed-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/bg-login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/bg-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/bg-modal-about-pf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/bg-navbar-pf-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/brand-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/facebook-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/fedora-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/rcue-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/rcue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/redhat_reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/spinner-inverse-sm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/spinner-lg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/spinner-xs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/stack-exchange-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/img/twitter-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/_patternfly-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/_patternfly-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/_patternfly.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_about-modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_application-launcher.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_blank-slate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-combobox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-datepicker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-mixin-overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-touchspin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_bootstrap-treeview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_card-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_charts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_color-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_context-selector.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_datatables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_date-and-time.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_experimental-features.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_hint-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_infotip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_layouts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_list-pf.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_list-view-dnd.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_list-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_loading-state.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_nav-vertical-alt.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_navbar-alt.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_navbar-vertical.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_notifications-drawer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_rcue-about-modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_rcue-additions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_rcue-login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_rcue-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_rcue.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_search.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_skip-to-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_spinner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_syntax-highlighting.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_table-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_time-picker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_toast.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_toolbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_tree-list-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_vertical-nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/_wizard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-combobox/combobox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-datepicker/datepicker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-datepicker/datepicker3.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-select/bootstrap-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-select/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-slider/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-slider/_rules.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-slider/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-slider/bootstrap-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/bootstrap-switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/build.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/mixins/vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-switch/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/bootstrap-touchspin/_jquery.bootstrap-touchspin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/c3/_c3.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/eonasdan-bootstrap-datetimepicker/_bootstrap-datetimepicker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/patternfly/dependencies/eonasdan-bootstrap-datetimepicker/bootstrap-datetimepicker-build.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_about-modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_blank-slate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-combobox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-datepicker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-mixin-overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-touchspin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_bootstrap-treeview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_card-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_charts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_color-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_context-selector.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_datatables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_date-and-time.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_experimental-features.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_hint-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_infotip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_layouts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_list-pf.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_list-view-dnd.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_list-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_loading-state.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_nav-vertical-alt.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_navbar-alt.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_navbar-vertical.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_notifications-drawer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_patternfly-additions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_patternfly.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_rcue-about-modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_rcue-login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_rcue-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_search.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_skip-to-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_spinner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_syntax-highlighting.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_table-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_time-picker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_toast.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_toolbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_tree-list-view.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_vertical-nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/dist/sass/rcue/_wizard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/patternfly/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/native-image.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/TaskSummary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ArcProcessor$generateResources12.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties13.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/LifecycleEventsBuildStep$startupEvent18.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingRuntimeInit1.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingStaticInit4.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces7.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$setup3.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection15.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RuntimeBeanProcessor$build10.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/SubstrateConfigBuildStep$build9.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor2.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext14.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$boot17.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$build16.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean8.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/ApplicationImpl1.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/AutoFeature.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/GeneratedMain.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/image_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.fasterxml.jackson.core.jackson-core-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.fasterxml.jackson.core.jackson-databind-2.9.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.fasterxml.jackson.jaxrs.jackson-jaxrs-base-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.fasterxml.jackson.module.jackson-module-jaxb-annotations-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.github.fge.btf-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.github.fge.jackson-coreutils-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.github.fge.json-patch-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.github.fge.msg-simple-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.github.javaparser.javaparser-core-3.13.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.google.errorprone.error_prone_annotations-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.google.guava.failureaccess-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.google.guava.guava-27.0.1-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.google.guava.listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.google.j2objc.j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.google.protobuf.protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.sun.activation.jakarta.activation-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.sun.istack.istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.sun.mail.javax.mail-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.sun.xml.fastinfoset.FastInfoset-1.2.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/com.thoughtworks.xstream.xstream-1.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/commons-codec.commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/commons-io.commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/commons-logging.commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.arc.arc-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-arc-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-core-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-jackson-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-jaxb-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-jsonb-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-jsonp-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-kogito-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-rest-client-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-resteasy-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-resteasy-common-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-resteasy-jackson-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-resteasy-jsonb-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-resteasy-server-common-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.quarkus.quarkus-undertow-0.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.smallrye.smallrye-config-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.smallrye.smallrye-context-propagation-1.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.smallrye.smallrye-context-propagation-api-1.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.undertow.undertow-core-2.0.21.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/io.undertow.undertow-servlet-2.0.21.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.annotation.javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.annotation.jsr250-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.el.javax.el-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.enterprise.cdi-api-2.0.SP1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.inject.javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.interceptor.javax.interceptor-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.json.bind.javax.json.bind-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.validation.validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/javax.xml.bind.jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.antlr.antlr-runtime-3.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.commons.commons-lang3-3.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.httpcomponents.httpasyncclient-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.httpcomponents.httpclient-4.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.httpcomponents.httpcore-4.4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.httpcomponents.httpcore-nio-4.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.james.apache-mime4j-core-0.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.james.apache-mime4j-dom-0.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.apache.james.apache-mime4j-storage-0.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.checkerframework.checker-qual-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.codehaus.mojo.animal-sniffer-annotations-1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.drools.drools-core-7.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.eclipse.jdt.core.compiler.ecj-4.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.eclipse.microprofile.config.microprofile-config-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.eclipse.microprofile.context-propagation.microprofile-context-propagation-api-1.0-RC1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.eclipse.microprofile.rest.client.microprofile-rest-client-api-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.eclipse.yasson-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.glassfish.javax.json-1.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.glassfish.jaxb.jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.glassfish.jaxb.txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.graalvm.sdk.graal-sdk-19.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.logging.jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.logging.jboss-logging-annotations-2.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.logmanager.jboss-logmanager-embedded-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-cdi-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-client-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-client-api-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-client-microprofile-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-context-propagation-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-core-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-core-spi-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-jackson2-provider-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-jaxb-provider-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-json-binding-provider-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-json-p-provider-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.resteasy.resteasy-multipart-provider-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.slf4j.slf4j-jboss-logging-1.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.spec.javax.interceptor.jboss-interceptors-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.spec.javax.servlet.jboss-servlet-api_4.0_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec-1.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.spec.javax.xml.bind.jboss-jaxb-api_2.3_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.threads.jboss-threads-3.0.0.Beta5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.weld.weld-api-3.0.SP4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.xnio.xnio-api-3.7.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jboss.xnio.xnio-nio-3.7.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jbpm.jbpm-document-7.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.jvnet.staxex.stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kie-api-7.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kie-dmn-api-7.22.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kie-dmn-model-7.22.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kie-internal-7.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-canonical-model-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-compiler-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-core-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-core-reflective-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-core-static-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-model-compiler-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-mvel-compiler-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.drools-mvel-parser-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.jbpm-flow-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.kogito-api-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.kogito-internal-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.kie.kogito.kogito-services-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.mvel.mvel2-2.4.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.osgi.org.osgi.annotation.versioning-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.reactivestreams.reactive-streams-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.slf4j.slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.uberfire.uberfire-maven-support-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.common.wildfly-common-1.5.0.Final-format-001.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-asn1-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-auth-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-auth-server-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-base-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-credential-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-keystore-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-permission-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-provider-util-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-ssl-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-util-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-x500-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-x500-cert-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/org.wildfly.security.wildfly-elytron-x500-cert-util-2.0.0.Alpha4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/xmlpull.xmlpull-1.1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lib/xpp3.xpp3_min-1.1.4c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT-runner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/build-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/quarkus-default-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/services/io.quarkus.arc.ComponentsProvider" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/ActivateRequestContextInterceptor_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/runtimebean/RuntimeBeanProducers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/setup/Default_ComponentsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ArcProcessor$generateResources12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/LifecycleEventsBuildStep$startupEvent18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingRuntimeInit1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingStaticInit4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$setup3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RuntimeBeanProcessor$build10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/SubstrateConfigBuildStep$build9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$boot17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$build16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/QuarkusObjectMapperContextResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/ApplicationImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/AutoFeature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/GeneratedMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfigRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfigRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeDefaultConfigSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/undertow/servlet/sse/ServerSentEventSCI_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/javax/enterprise/context/control/ActivateRequestContext_Shared_AnnotationLiteral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/javax/inject/Named_Shared_AnnotationLiteral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/acme/restclient/OnboardingResource_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/acme/restclient/OnboardingService_19d5d9a4bb62cc07ef1c98f0a42e609ebeb0f952_Synthetic_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/ProjectModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/ProjectRuntime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/ProjectRuntime_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/ProjectRuntime_ClientProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultKieSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultKieSession_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultStatelessKieSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultStatelessKieSession_Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/eclipse/microprofile/rest/client/inject/RestClient_Shared_AnnotationLiteral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/kie/kogito/app/Application$Processes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/kie/kogito/app/Application$RuleUnits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/kie/kogito/app/Application.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +975,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OnboardingResource.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OnboardingResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="249" column="73" lean-forward="true" selection-start-line="249" selection-start-column="73" selection-end-line="249" selection-end-column="73" />
+            <state relative-caret-position="135">
+              <caret line="155" column="27" selection-start-line="155" selection-start-column="27" selection-end-line="155" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +990,8 @@
       <file leaf-file-name="LegalReview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+            <state relative-caret-position="79">
+              <caret line="302" column="49" selection-start-line="302" selection-start-column="49" selection-end-line="302" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -60,11 +1020,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUpload.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileUpload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="-137">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -129,8 +1089,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>documents</find>
-      <find>getCase</find>
       <find>submit</find>
       <find>pf</find>
       <find>icon</find>
@@ -156,9 +1114,11 @@
       <find>caseId</find>
       <find>getTask</find>
       <find>tasks</find>
-      <find>off</find>
       <find>Pattern</find>
+      <find>8762</find>
       <find>fail</find>
+      <find>baseURL</find>
+      <find>off</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -185,11 +1145,11 @@
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/CountriesResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
       </list>
     </option>
   </component>
@@ -438,7 +1398,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.54013604" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.54013604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="5" weight="0.34978542" />
@@ -475,7 +1435,7 @@
       <window_info anchor="bottom" id="Find" order="5" weight="0.32969698" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.54013604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.54013604" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -858,6 +1818,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="302" column="49" selection-start-line="302" selection-start-column="49" selection-end-line="302" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -865,27 +1839,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="249" column="73" lean-forward="true" selection-start-line="249" selection-start-column="73" selection-end-line="249" selection-end-column="73" />
+        <state relative-caret-position="135">
+          <caret line="155" column="27" selection-start-line="155" selection-start-column="27" selection-end-line="155" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
         </state>
       </provider>
     </entry>

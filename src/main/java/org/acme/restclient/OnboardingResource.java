@@ -153,7 +153,7 @@ public class OnboardingResource {
     @Path("/task-summary")
     @Produces(MediaType.APPLICATION_JSON)
 
-    public String getTaskSummary() throws IOException, ServletException {
+    public List<TaskSummary> getTaskSummary() throws IOException, ServletException {
         List<TaskSummary> tasks = new ArrayList<>();
         String caseIdSample = "CASE-000000000X";
         TaskSummary taskSummary = null;
@@ -198,10 +198,10 @@ public class OnboardingResource {
             tasks.add(taskSummary);
 
         }
-        System.out.println(taskSummary);
+        System.out.println(tasks);
 
 
-        return objectMapper.writeValueAsString(tasks);
+        return tasks;
 
 
     }

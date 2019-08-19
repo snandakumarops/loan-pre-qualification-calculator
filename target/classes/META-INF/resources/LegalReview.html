@@ -42,10 +42,10 @@
 
   var app = angular.module('myApp1', []);
 app.controller('FormController1', function($scope,$http,$window) {
-var baseURL = window.location.protocol + '//' + window.location.host;
+$scope.baseURL = window.location.protocol + '//' + window.location.host;
 $scope.dataLoaded = true;
   $http({
-            url: baseURL+'/onboarding/legal-review',
+            url: $scope.baseURL+'/onboarding/legal-review',
             method: "GET"
             })
             .then(function(response) {
@@ -65,7 +65,7 @@ $scope.dataLoaded = true;
 
         $scope.jsn = "{\"legalApproved\":"+approval+"}";
        $http({
-            url: 'http://localhost:8762/onboarding/legalReview-complete/'+taskId,
+            url: $scope.baseURL+'/onboarding/legalReview-complete/'+taskId,
             method: "POST",
             data: $scope.jsn
             })
@@ -106,7 +106,7 @@ $scope.uploadFiles = function (taskId) {
 
 
             $http({
-            url: baseURL+'/onboarding/customer-case/documents/'+taskId,
+            url: $scope.baseURL+'/onboarding/customer-case/documents/'+taskId,
             method: "POST",
             data: data,
              headers: {'Content-Type': undefined},
@@ -300,7 +300,7 @@ $scope.uploadFiles = function (taskId) {
                     {{off.caseId}}
 
                       <div ng-repeat="x in off.docUploadedNames" >
-                          <a ng-href="http://localhost:8762/country/casefile-docs/{{x}}">{{x}}</a>
+                          <a ng-href="/onboarding/casefile-docs/{{x}}">{{x}}</a>
                       </div>
 
                       <br/>

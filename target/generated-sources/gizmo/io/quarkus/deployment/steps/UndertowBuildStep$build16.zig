@@ -1129,7 +1129,7 @@ Method deploy_4 : V
     ALOAD 2
     LDC (Integer) 2
     AALOAD
-    ASTORE 7
+    ASTORE 10
     ALOAD 2
     LDC (Integer) 4
     AALOAD
@@ -1137,25 +1137,25 @@ Method deploy_4 : V
     LDC (String) "NORMAL"
     // Method descriptor: (Ljava/lang/String;)Lio/quarkus/runtime/LaunchMode;
     INVOKESTATIC io/quarkus/runtime/LaunchMode#valueOf
-    ASTORE 10
+    ASTORE 8
     ALOAD 1
     LDC (String) "io.quarkus.runtime.ShutdownContext"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 8
+    ASTORE 7
     ALOAD 2
     LDC (Integer) 0
     AALOAD
-    ASTORE 16
-    ALOAD 16
+    ASTORE 17
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     LDC (String) "test"
-    ALOAD 7
+    ALOAD 10
     CHECKCAST java/util/Set
     ALOAD 9
     CHECKCAST java/util/Set
-    ALOAD 10
     ALOAD 8
+    ALOAD 7
     CHECKCAST io/quarkus/runtime/ShutdownContext
     LDC (String) "/"
     // Method descriptor: (Ljava/lang/String;Ljava/util/Set;Ljava/util/Set;Lio/quarkus/runtime/LaunchMode;Lio/quarkus/runtime/ShutdownContext;Ljava/lang/String;)Lio/quarkus/runtime/RuntimeValue;
@@ -1198,33 +1198,33 @@ Method deploy_4 : V
     ALOAD 14
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 19
+    ASTORE 18
     LDC (Boolean) true
     // Method descriptor: (Z)Ljava/lang/Boolean;
     INVOKESTATIC java/lang/Boolean#valueOf
-    ASTORE 18
+    ASTORE 19
     ALOAD 1
     LDC (String) "proxykey19"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 17
+    ASTORE 20
     ALOAD 2
     LDC (Integer) 6
     AALOAD
-    ASTORE 20
-    ALOAD 16
+    ASTORE 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 15
     CHECKCAST io/quarkus/runtime/RuntimeValue
     LDC (String) "javax.ws.rs.core.Application"
-    ALOAD 19
     ALOAD 18
+    ALOAD 19
     CHECKCAST java/lang/Boolean
     // Method descriptor: ()Z
     INVOKEVIRTUAL java/lang/Boolean#booleanValue
-    ALOAD 17
-    CHECKCAST io/quarkus/arc/runtime/BeanContainer
     ALOAD 20
+    CHECKCAST io/quarkus/arc/runtime/BeanContainer
+    ALOAD 16
     CHECKCAST java/util/Map
     ACONST_NULL
     // Method descriptor: (Lio/quarkus/runtime/RuntimeValue;Ljava/lang/String;Ljava/lang/Class;ZLio/quarkus/arc/runtime/BeanContainer;Ljava/util/Map;Lio/undertow/servlet/api/InstanceFactory;)Lio/quarkus/runtime/RuntimeValue;
@@ -1239,18 +1239,18 @@ Method deploy_4 : V
     LDC (String) "proxykey27"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 22
+    ASTORE 23
     LDC (String) "REQUEST"
     // Method descriptor: (Ljava/lang/String;)Ljavax/servlet/DispatcherType;
     INVOKESTATIC javax/servlet/DispatcherType#valueOf
-    ASTORE 23
-    ALOAD 16
+    ASTORE 22
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
-    ALOAD 22
+    ALOAD 23
     CHECKCAST io/quarkus/runtime/RuntimeValue
     LDC (String) "javax.ws.rs.core.Application"
     LDC (String) "default"
-    ALOAD 23
+    ALOAD 22
     // Method descriptor: (Lio/quarkus/runtime/RuntimeValue;Ljava/lang/String;Ljava/lang/String;Ljavax/servlet/DispatcherType;)V
     INVOKEVIRTUAL io/quarkus/undertow/runtime/UndertowDeploymentRecorder#addFilterServletNameMapping
     ALOAD 1
@@ -1258,7 +1258,7 @@ Method deploy_4 : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 24
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 24
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1271,7 +1271,7 @@ Method deploy_4 : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 25
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 25
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1284,7 +1284,7 @@ Method deploy_4 : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 26
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 26
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1297,7 +1297,7 @@ Method deploy_4 : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 27
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 27
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1310,7 +1310,7 @@ Method deploy_4 : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 28
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 28
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1328,7 +1328,7 @@ Method deploy_4 : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 29
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 30
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1340,7 +1340,7 @@ Method deploy_4 : V
     LDC (String) "proxykey27"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 34
+    ASTORE 33
     // Method descriptor: ()Ljava/lang/Thread;
     INVOKESTATIC java/lang/Thread#currentThread
     // Method descriptor: ()Ljava/lang/ClassLoader;
@@ -1351,18 +1351,18 @@ Method deploy_4 : V
     ALOAD 31
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 33
+    ASTORE 32
     ALOAD 1
     LDC (String) "proxykey19"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 32
-    ALOAD 16
+    ASTORE 34
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
-    ALOAD 34
-    CHECKCAST io/quarkus/runtime/RuntimeValue
     ALOAD 33
+    CHECKCAST io/quarkus/runtime/RuntimeValue
     ALOAD 32
+    ALOAD 34
     CHECKCAST io/quarkus/arc/runtime/BeanContainer
     // Method descriptor: (Lio/quarkus/runtime/RuntimeValue;Ljava/lang/Class;Lio/quarkus/arc/runtime/BeanContainer;)V
     INVOKEVIRTUAL io/quarkus/undertow/runtime/UndertowDeploymentRecorder#registerListener
@@ -1403,7 +1403,7 @@ Method deploy_4 : V
     LDC (Integer) 8
     AALOAD
     ASTORE 39
-    ALOAD 16
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 38
     CHECKCAST io/quarkus/runtime/RuntimeValue
@@ -1421,24 +1421,24 @@ Method deploy_4 : V
     LDC (String) "proxykey19"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 44
+    ASTORE 42
     LDC (String) "NORMAL"
     // Method descriptor: (Ljava/lang/String;)Lio/quarkus/runtime/LaunchMode;
     INVOKESTATIC io/quarkus/runtime/LaunchMode#valueOf
-    ASTORE 43
+    ASTORE 44
     ALOAD 1
     LDC (String) "io.quarkus.runtime.ShutdownContext"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 42
-    ALOAD 16
+    ASTORE 43
+    ALOAD 17
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 41
     CHECKCAST io/quarkus/runtime/RuntimeValue
-    ALOAD 44
-    CHECKCAST io/quarkus/arc/runtime/BeanContainer
-    ALOAD 43
     ALOAD 42
+    CHECKCAST io/quarkus/arc/runtime/BeanContainer
+    ALOAD 44
+    ALOAD 43
     CHECKCAST io/quarkus/runtime/ShutdownContext
     // Method descriptor: (Lio/quarkus/runtime/RuntimeValue;Lio/quarkus/arc/runtime/BeanContainer;Lio/quarkus/runtime/LaunchMode;Lio/quarkus/runtime/ShutdownContext;)Lio/undertow/servlet/api/DeploymentManager;
     INVOKEVIRTUAL io/quarkus/undertow/runtime/UndertowDeploymentRecorder#bootServletContainer
