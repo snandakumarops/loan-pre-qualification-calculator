@@ -2,6 +2,7 @@ package org.acme.restclient;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.binary.StringUtils;
 import org.apache.commons.io.IOUtils;
@@ -164,6 +165,7 @@ public class OnboardingResource {
 
 
         ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
 
         List<Map<String, String>> res = (List<Map<String, String>>) objectMapper.readValue(json, Map.class).get("task-summary");
         for (Map map : res) {
