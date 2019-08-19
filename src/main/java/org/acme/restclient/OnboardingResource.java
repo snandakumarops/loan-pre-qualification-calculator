@@ -161,7 +161,7 @@ public class OnboardingResource {
 
         String json = onboardingService.getTasks("pamAdmin", "Reserved");
 
-        System.out.println(json);
+
 
 
         ObjectMapper objectMapper = new ObjectMapper();
@@ -198,6 +198,7 @@ public class OnboardingResource {
 
             tasks.add(taskSummary);
         }
+        System.out.println(taskSummary);
 
 
         return objectMapper.writeValueAsString(tasks);
