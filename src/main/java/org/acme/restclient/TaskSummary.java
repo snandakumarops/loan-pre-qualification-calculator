@@ -49,4 +49,9 @@ public class TaskSummary {
     public void setCaseId(String caseId) {
         this.caseId = caseId;
     }
+
+    public String toString() {
+
+        return this.getTaskId()+this.caseId+this.getTaskComment()+this.getDocUploadedNames();
+    }
 }

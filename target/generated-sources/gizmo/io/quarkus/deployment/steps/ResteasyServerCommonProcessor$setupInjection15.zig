@@ -56,20 +56,20 @@ Method deploy_0 : V
     ALOAD 2
     LDC (Integer) 3
     AALOAD
-    ASTORE 6
+    ASTORE 7
     ALOAD 2
     LDC (Integer) 2
     AALOAD
-    ASTORE 7
-    ALOAD 6
-    CHECKCAST java/util/Collection
+    ASTORE 6
     ALOAD 7
+    CHECKCAST java/util/Collection
+    ALOAD 6
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
     ALOAD 2
     LDC (Integer) 4
-    ALOAD 6
+    ALOAD 7
     AASTORE
     NEW io/quarkus/resteasy/server/common/runtime/ResteasyServerCommonRecorder
     DUP

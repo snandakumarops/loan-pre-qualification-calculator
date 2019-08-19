@@ -39,22 +39,22 @@ Method deploy_0 : V
     ALOAD 2
     LDC (Integer) 1
     AALOAD
-    ASTORE 4
+    ASTORE 5
     ALOAD 1
     LDC (String) "proxykey12"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 5
-    ALOAD 4
+    ASTORE 4
+    ALOAD 5
     CHECKCAST java/util/Map
     LDC (String) "javax_servlet_ServletContext_bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
-    ALOAD 5
+    ALOAD 4
     // Method descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     INVOKEINTERFACE java/util/Map#put
     POP
     ALOAD 2
     LDC (Integer) 2
-    ALOAD 4
+    ALOAD 5
     AASTORE
     NEW io/quarkus/arc/runtime/ArcRecorder
     DUP
