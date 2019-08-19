@@ -196,7 +196,6 @@ public class OnboardingResource {
 
             taskSummary.setCaseId(caseId);
 
-            tasks.add(taskSummary);
         }
         System.out.println(taskSummary);
 
@@ -222,6 +221,7 @@ public class OnboardingResource {
 
 
         ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
 
         List<Map<String, String>> res = (List<Map<String, String>>) objectMapper.readValue(json, Map.class).get("task-summary");
         for (Map map : res) {
