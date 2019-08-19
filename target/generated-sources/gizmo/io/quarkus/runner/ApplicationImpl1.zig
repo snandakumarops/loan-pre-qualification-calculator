@@ -56,10 +56,10 @@ Method doStart : V
     ALOAD 2
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties13
+    NEW io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties14
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties13#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties14#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 2
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
@@ -165,34 +165,34 @@ Method <clinit> : V
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/RestClientProcessor$processInterfaces6
+    NEW io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean6
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/RestClientProcessor$processInterfaces6#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean6#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/SubstrateConfigBuildStep$build9
+    NEW io/quarkus/deployment/steps/RestClientProcessor$processInterfaces8
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/SubstrateConfigBuildStep$build9#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/RestClientProcessor$processInterfaces8#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean7
+    NEW io/quarkus/deployment/steps/RuntimeBeanProcessor$build9
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean7#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/RuntimeBeanProcessor$build9#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/RuntimeBeanProcessor$build10
+    NEW io/quarkus/deployment/steps/SubstrateConfigBuildStep$build10
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/RuntimeBeanProcessor$build10#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/SubstrateConfigBuildStep$build10#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
@@ -221,10 +221,10 @@ Method <clinit> : V
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext14
+    NEW io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext13
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext14#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext13#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="" />
+    <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

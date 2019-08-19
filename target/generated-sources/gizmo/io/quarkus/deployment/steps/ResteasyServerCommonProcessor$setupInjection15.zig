@@ -56,20 +56,20 @@ Method deploy_0 : V
     ALOAD 2
     LDC (Integer) 3
     AALOAD
-    ASTORE 7
+    ASTORE 6
     ALOAD 2
     LDC (Integer) 2
     AALOAD
-    ASTORE 6
-    ALOAD 7
-    CHECKCAST java/util/Collection
+    ASTORE 7
     ALOAD 6
+    CHECKCAST java/util/Collection
+    ALOAD 7
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
     ALOAD 2
     LDC (Integer) 4
-    ALOAD 7
+    ALOAD 6
     AASTORE
     NEW io/quarkus/resteasy/server/common/runtime/ResteasyServerCommonRecorder
     DUP
@@ -84,18 +84,18 @@ Method deploy_0 : V
     LDC (String) "proxykey19"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 9
+    ASTORE 10
     ALOAD 2
     LDC (Integer) 4
     AALOAD
-    ASTORE 10
+    ASTORE 9
     ALOAD 2
     LDC (Integer) 0
     AALOAD
     CHECKCAST io/quarkus/resteasy/server/common/runtime/ResteasyServerCommonRecorder
-    ALOAD 9
-    CHECKCAST io/quarkus/arc/runtime/BeanContainer
     ALOAD 10
+    CHECKCAST io/quarkus/arc/runtime/BeanContainer
+    ALOAD 9
     CHECKCAST java/util/List
     // Method descriptor: (Lio/quarkus/arc/runtime/BeanContainer;Ljava/util/List;)V
     INVOKEVIRTUAL io/quarkus/resteasy/server/common/runtime/ResteasyServerCommonRecorder#setupIntegration
