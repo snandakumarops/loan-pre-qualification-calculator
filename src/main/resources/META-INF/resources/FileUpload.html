@@ -49,7 +49,7 @@ var baseURL = window.location.protocol + '//' + window.location.host;
             .then(function(response) {
 
               $scope.tasks = response.data;
-
+                alert($scope.tasks[0].caseId);
             });
 
   $scope.showFilePalette = function() {
