@@ -42,9 +42,10 @@
 
   var app = angular.module('myApp1', []);
 app.controller('FormController1', function($scope,$http) {
+var baseURL = window.location.protocol + '//' + window.location.host;
   $scope.test="unassigned";
   $http({
-            url: 'http://localhost:8762/onboarding/task-summary',
+            url: baseURL+'/onboarding/task-summary',
             method: "GET"
             })
             .then(function(response) {
@@ -87,7 +88,7 @@ $scope.uploadFiles = function (taskId) {
 
 
             $http({
-            url: 'http://localhost:8762/onboarding/customer-case/documents/'+taskId,
+            url: baseURL+'/onboarding/customer-case/documents/'+taskId,
             method: "POST",
             data: data,
              headers: {'Content-Type': undefined},

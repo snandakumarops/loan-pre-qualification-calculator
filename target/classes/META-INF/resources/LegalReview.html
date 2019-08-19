@@ -44,7 +44,7 @@
 app.controller('FormController1', function($scope,$http,$window) {
 $scope.dataLoaded = true;
   $http({
-            url: 'http://localhost:8762/onboarding/legal-review',
+            url: baseURL+'/onboarding/legal-review',
             method: "GET"
             })
             .then(function(response) {
@@ -105,7 +105,7 @@ $scope.uploadFiles = function (taskId) {
 
 
             $http({
-            url: 'http://localhost:8762/onboarding/customer-case/documents/'+taskId,
+            url: baseURL+'/onboarding/customer-case/documents/'+taskId,
             method: "POST",
             data: data,
              headers: {'Content-Type': undefined},
