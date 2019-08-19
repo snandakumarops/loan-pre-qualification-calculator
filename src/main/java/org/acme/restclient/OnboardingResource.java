@@ -195,6 +195,7 @@ public class OnboardingResource {
             taskSummary.setDocumentList(docs);
 
             taskSummary.setCaseId(caseId);
+            tasks.add(taskSummary);
 
         }
         System.out.println(taskSummary);
