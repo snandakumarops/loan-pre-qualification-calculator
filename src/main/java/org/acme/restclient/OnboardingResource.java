@@ -77,16 +77,28 @@ public class OnboardingResource {
 
                     objBegin += ",";
                 }
-
-
                 byte[] bytes = IOUtils.toByteArray(inputStream);
                 String base64 = StringUtils.newStringUtf8(Base64.encodeBase64(bytes, false));
+                String docMgmSystemUpdate = "{\n" +
+                        "\"document-id\":\"firstdoc\",  \n" +
+                        "\"document-name\" : \""+fileName+"\",\n" +
+                        "  \"document-link\" : null,\n" +
+                        "  \"document-size\" : 0,\n" +
+                        "  \"document-last-mod\" : {\n" +
+                        "    \"java.util.Date\" : 1539936629148\n" +
+                        "  },\n" +
+                        "  \"document-content\" : \""+base64+"\"\n" +
+                        "}";
+
+                String id = onboardingService.uploadDocToDocMgSystem(docMgmSystemUpdate);
+                System.out.println(id);
+
+
                 System.out.println("{ \"org.jbpm.document.service.impl.DocumentImpl\": {\"identifier\": \"" + fileName + "\",");
-                objBegin += "{ \"org.jbpm.document.service.impl.DocumentImpl\": {\"identifier\": \"" + fileName + "\"," +
-                        "\"name\":\"" + fileName + "\"," +
+                objBegin += "{ \"org.jbpm.document.service.impl.DocumentImpl\": {\"identifier\": " + id + "," +
+                        "\"name\":" + id + "," +
                         "\"link\": \"\"," +
-                        "\"lastModified\": \"2018-01-10\"," +
-                        "\"content\": \"" + base64 + "\", \"attributes\": {" +
+                        "\"lastModified\": \"2018-01-10\"," + " \"attributes\": {" +
                         "\"_UPDATED_\": \"true\"" +
                         "}" +
                         "}" +
@@ -234,7 +246,7 @@ public class OnboardingResource {
             String caseId = caseIdSample.substring(0, caseIdSample.length() - String.valueOf(map.get("task-proc-inst-id")).length())
                     + String.valueOf(map.get("task-proc-inst-id"));
             String jsonDocs = onboardingService.getCaseFile("docsForReview", caseId);
-
+            System.out.println("socs"+jsonDocs);
 
             List<String> docNames = new ArrayList<>();
             String docId = null;
@@ -242,6 +254,7 @@ public class OnboardingResource {
             Map<String, List<Map<String, String>>> mapRes = objectMapper.readValue(jsonDocs, Map.class);
             for (String key : mapRes.keySet()) {
                 List<Map<String, String>> valueMap = (List<Map<String, String>>) mapRes.get(key);
+
                 for (Map<String, String> vlu : valueMap) {
                     for (String str : vlu.keySet()) {
                         if (str.equals("value")) {
@@ -260,7 +273,7 @@ public class OnboardingResource {
                     }
                 }
             }
-            System.out.println(docNames);
+            System.out.println("docName"+docNames);
 
             taskSummary.setDocUploadedNames(docNames);
             taskSummary.setCaseId(caseId);

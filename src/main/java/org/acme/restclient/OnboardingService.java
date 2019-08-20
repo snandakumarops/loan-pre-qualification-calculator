@@ -62,4 +62,10 @@ public interface OnboardingService {
     @ClientHeaderParam(name="Authorization", value="Basic cGFtQWRtaW46cmVkaGF0cGFtMSE=")
     String startLegalReview(@javax.ws.rs.PathParam("taskId") String taskId, @QueryParam("user") String user);
 
+    @POST
+    @Path("documents")
+    @Consumes("application/json")
+    @ClientHeaderParam(name="Authorization", value="Basic cGFtQWRtaW46cmVkaGF0cGFtMSE=")
+    String uploadDocToDocMgSystem( String body);
+
 }
