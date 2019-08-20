@@ -300,7 +300,7 @@ $scope.uploadFiles = function (taskId) {
                     {{off.caseId}}
 
                       <div ng-repeat="x in off.docUploadedNames" >
-                          <a ng-href="/onboarding/casefile-docs/{{x}}">Customer Questionnaire Doc {{$index+1}}</a>
+                          <a ng-href="{{baseURL}}/onboarding/casefile-docs/{{x}}">Customer Questionnaire Doc {{$index+1}}</a>
                       </div>
 
                       <br/>
