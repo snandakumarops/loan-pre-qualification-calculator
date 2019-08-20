@@ -297,7 +297,7 @@ Method beforeAnalysis : V
     LDC (Type) Lorg/graalvm/nativeimage/impl/RuntimeClassInitializationSupport;
     // Method descriptor: (Ljava/lang/Class;)Ljava/lang/Object;
     INVOKESTATIC org/graalvm/nativeimage/ImageSingletons#lookup
-    ASTORE 3
+    ASTORE 4
     LDC (Type) Lio/quarkus/runner/AutoFeature;
     // Method descriptor: ()Ljava/lang/ClassLoader;
     INVOKEVIRTUAL java/lang/Class#getClassLoader
@@ -308,10 +308,10 @@ Method beforeAnalysis : V
     ALOAD 2
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 4
-    ALOAD 3
-    CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
+    ASTORE 3
     ALOAD 4
+    CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
+    ALOAD 3
     LDC (String) "Quarkus"
     // Method descriptor: (Ljava/lang/Class;Ljava/lang/String;)V
     INVOKEINTERFACE org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport#initializeAtRunTime
@@ -334,7 +334,7 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 6
-    ALOAD 3
+    ALOAD 4
     CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
     ALOAD 6
     LDC (String) "Quarkus"
@@ -359,7 +359,7 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 8
-    ALOAD 3
+    ALOAD 4
     CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
     ALOAD 8
     LDC (String) "Quarkus"
@@ -384,7 +384,7 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 10
-    ALOAD 3
+    ALOAD 4
     CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
     ALOAD 10
     LDC (String) "Quarkus"
@@ -409,7 +409,7 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 12
-    ALOAD 3
+    ALOAD 4
     CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
     ALOAD 12
     LDC (String) "Quarkus"
@@ -438,7 +438,7 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 15
-    ALOAD 3
+    ALOAD 4
     CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
     ALOAD 15
     LDC (String) "Quarkus"
@@ -463,7 +463,7 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 17
-    ALOAD 3
+    ALOAD 4
     CHECKCAST org/graalvm/nativeimage/impl/RuntimeClassInitializationSupport
     ALOAD 17
     LDC (String) "Quarkus"
@@ -487,76 +487,76 @@ Method beforeAnalysis : V
     ASTORE 21
     LDC (Integer) 1
     ANEWARRAY java/lang/Class
-    ASTORE 20
-    LDC (String) "javax.ws.rs.ext.Providers"
+    ASTORE 19
+    LDC (String) "org.jboss.resteasy.spi.ResteasyConfiguration"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 19
-    ALOAD 20
-    LDC (Integer) 0
+    ASTORE 20
     ALOAD 19
+    LDC (Integer) 0
+    ALOAD 20
     AASTORE
     ALOAD 21
     CHECKCAST com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry
-    ALOAD 20
+    ALOAD 19
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKEINTERFACE com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry#addProxyClass
     LDC (Integer) 1
     ANEWARRAY java/lang/Class
-    ASTORE 22
-    LDC (String) "org.jboss.resteasy.spi.ResteasyConfiguration"
+    ASTORE 23
+    LDC (String) "javax.ws.rs.ext.Providers"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 23
-    ALOAD 22
-    LDC (Integer) 0
+    ASTORE 22
     ALOAD 23
+    LDC (Integer) 0
+    ALOAD 22
     AASTORE
     ALOAD 21
     CHECKCAST com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry
-    ALOAD 22
+    ALOAD 23
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKEINTERFACE com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry#addProxyClass
     LDC (Integer) 2
     ANEWARRAY java/lang/Class
-    ASTORE 25
+    ASTORE 24
     LDC (String) "org.acme.restclient.OnboardingService"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 24
-    ALOAD 25
-    LDC (Integer) 0
+    ASTORE 25
     ALOAD 24
+    LDC (Integer) 0
+    ALOAD 25
     AASTORE
     LDC (String) "org.jboss.resteasy.client.jaxrs.internal.proxy.ResteasyClientProxy"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 26
-    ALOAD 25
+    ALOAD 24
     LDC (Integer) 1
     ALOAD 26
     AASTORE
     ALOAD 21
     CHECKCAST com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry
-    ALOAD 25
+    ALOAD 24
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKEINTERFACE com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry#addProxyClass
     LDC (Integer) 3
     ANEWARRAY java/lang/Class
-    ASTORE 27
+    ASTORE 28
     LDC (String) "org.acme.restclient.OnboardingService"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
-    ASTORE 28
-    ALOAD 27
-    LDC (Integer) 0
+    ASTORE 27
     ALOAD 28
+    LDC (Integer) 0
+    ALOAD 27
     AASTORE
     LDC (String) "org.jboss.resteasy.microprofile.client.RestClientProxy"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 29
-    ALOAD 27
+    ALOAD 28
     LDC (Integer) 1
     ALOAD 29
     AASTORE
@@ -564,13 +564,13 @@ Method beforeAnalysis : V
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 30
-    ALOAD 27
+    ALOAD 28
     LDC (Integer) 2
     ALOAD 30
     AASTORE
     ALOAD 21
     CHECKCAST com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry
-    ALOAD 27
+    ALOAD 28
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKEINTERFACE com/oracle/svm/core/jdk/proxy/DynamicProxyRegistry#addProxyClass
     LDC (String) "META-INF/build-config.properties"
@@ -4380,8 +4380,8 @@ Method beforeAnalysis : V
     ALOAD 31
     // Method descriptor: (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
     INVOKEVIRTUAL java/lang/Class#getDeclaredMethod
-    ASTORE 32
-    ALOAD 32
+    ASTORE 34
+    ALOAD 34
     CHECKCAST java/lang/reflect/AccessibleObject
     LDC (Boolean) true
     // Method descriptor: (Z)V
@@ -4393,14 +4393,14 @@ Method beforeAnalysis : V
     ** label38
     LDC (Integer) 1
     ANEWARRAY java/lang/Object
-    ASTORE 34
-    ALOAD 34
+    ASTORE 32
+    ALOAD 32
     LDC (Integer) 0
     LDC (String) "yasson-messages"
     AASTORE
-    ALOAD 32
-    ALOAD 33
     ALOAD 34
+    ALOAD 33
+    ALOAD 32
     // Method descriptor: (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     INVOKEVIRTUAL java/lang/reflect/Method#invoke
     POP
@@ -4421,7 +4421,7 @@ Method beforeAnalysis : V
     LDC (Integer) 0
     LDC (String) "javax.xml.bind.Messages"
     AASTORE
-    ALOAD 32
+    ALOAD 34
     ALOAD 33
     ALOAD 35
     // Method descriptor: (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -4444,7 +4444,7 @@ Method beforeAnalysis : V
     LDC (Integer) 0
     LDC (String) "javax.xml.bind.helpers.Messages"
     AASTORE
-    ALOAD 32
+    ALOAD 34
     ALOAD 33
     ALOAD 36
     // Method descriptor: (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -4467,7 +4467,7 @@ Method beforeAnalysis : V
     LDC (Integer) 0
     LDC (String) "com.sun.org.apache.xml.internal.serializer.utils.SerializerMessages"
     AASTORE
-    ALOAD 32
+    ALOAD 34
     ALOAD 33
     ALOAD 37
     // Method descriptor: (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -4490,7 +4490,7 @@ Method beforeAnalysis : V
     LDC (Integer) 0
     LDC (String) "com.sun.org.apache.xml.internal.res.XMLErrorResources"
     AASTORE
-    ALOAD 32
+    ALOAD 34
     ALOAD 33
     ALOAD 38
     // Method descriptor: (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -4513,7 +4513,7 @@ Method beforeAnalysis : V
     LDC (Integer) 0
     LDC (String) "messages"
     AASTORE
-    ALOAD 32
+    ALOAD 34
     ALOAD 33
     ALOAD 39
     // Method descriptor: (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -4899,7 +4899,7 @@ Method registerClass16 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.jboss.resteasy.core.providerfactory.ResteasyProviderFactoryImpl"
+    LDC (String) "[Ljavax.ws.rs.client.ClientRequestFilter;"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -5268,7 +5268,7 @@ Method registerClass20 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "[Ljavax.ws.rs.ext.ReaderInterceptor;"
+    LDC (String) "com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -5279,7 +5279,7 @@ Method registerClass20 : V
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Method;
     INVOKEVIRTUAL java/lang/Class#getDeclaredMethods
-    POP
+    ASTORE 3
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Field;
     INVOKEVIRTUAL java/lang/Class#getDeclaredFields
@@ -5295,6 +5295,10 @@ Method registerClass20 : V
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
     ALOAD 2
+    CHECKCAST [Ljava/lang/reflect/Executable;
+    // Method descriptor: ([Ljava/lang/reflect/Executable;)V
+    INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
+    ALOAD 3
     CHECKCAST [Ljava/lang/reflect/Executable;
     // Method descriptor: ([Ljava/lang/reflect/Executable;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
@@ -5790,7 +5794,7 @@ Method registerClass17 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.jboss.resteasy.client.jaxrs.internal.proxy.ProxyBuilderImpl"
+    LDC (String) "[Ljavax.ws.rs.client.ClientResponseFilter;"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -6159,7 +6163,7 @@ Method registerClass21 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder"
+    LDC (String) "com.fasterxml.jackson.databind.ser.std.SqlDateSerializer"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -6681,7 +6685,7 @@ Method registerClass18 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "[Ljavax.ws.rs.client.ClientRequestFilter;"
+    LDC (String) "[Ljavax.ws.rs.ext.ReaderInterceptor;"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -7058,7 +7062,7 @@ Method registerClass10 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector"
+    LDC (String) "org.apache.commons.logging.impl.LogFactoryImpl"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -7069,7 +7073,7 @@ Method registerClass10 : V
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Method;
     INVOKEVIRTUAL java/lang/Class#getDeclaredMethods
-    ASTORE 3
+    POP
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Field;
     INVOKEVIRTUAL java/lang/Class#getDeclaredFields
@@ -7085,10 +7089,6 @@ Method registerClass10 : V
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
     ALOAD 2
-    CHECKCAST [Ljava/lang/reflect/Executable;
-    // Method descriptor: ([Ljava/lang/reflect/Executable;)V
-    INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
-    ALOAD 3
     CHECKCAST [Ljava/lang/reflect/Executable;
     // Method descriptor: ([Ljava/lang/reflect/Executable;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
@@ -7529,7 +7529,7 @@ Method registerClass19 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "[Ljavax.ws.rs.client.ClientResponseFilter;"
+    LDC (String) "org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -7540,7 +7540,7 @@ Method registerClass19 : V
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Method;
     INVOKEVIRTUAL java/lang/Class#getDeclaredMethods
-    POP
+    ASTORE 3
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Field;
     INVOKEVIRTUAL java/lang/Class#getDeclaredFields
@@ -7556,6 +7556,10 @@ Method registerClass19 : V
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
     ALOAD 2
+    CHECKCAST [Ljava/lang/reflect/Executable;
+    // Method descriptor: ([Ljava/lang/reflect/Executable;)V
+    INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
+    ALOAD 3
     CHECKCAST [Ljava/lang/reflect/Executable;
     // Method descriptor: ([Ljava/lang/reflect/Executable;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
@@ -7851,7 +7855,7 @@ Method registerClass11 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "com.fasterxml.jackson.databind.ser.std.SqlDateSerializer"
+    LDC (String) "org.apache.commons.logging.impl.Jdk14Logger"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -7862,7 +7866,7 @@ Method registerClass11 : V
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Method;
     INVOKEVIRTUAL java/lang/Class#getDeclaredMethods
-    ASTORE 3
+    POP
     ALOAD 0
     // Method descriptor: ()[Ljava/lang/reflect/Field;
     INVOKEVIRTUAL java/lang/Class#getDeclaredFields
@@ -7878,10 +7882,6 @@ Method registerClass11 : V
     // Method descriptor: ([Ljava/lang/Class;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
     ALOAD 2
-    CHECKCAST [Ljava/lang/reflect/Executable;
-    // Method descriptor: ([Ljava/lang/reflect/Executable;)V
-    INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
-    ALOAD 3
     CHECKCAST [Ljava/lang/reflect/Executable;
     // Method descriptor: ([Ljava/lang/reflect/Executable;)V
     INVOKESTATIC org/graalvm/nativeimage/hosted/RuntimeReflection#register
@@ -8797,7 +8797,7 @@ Method registerClass12 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.apache.commons.logging.impl.LogFactoryImpl"
+    LDC (String) "org.jboss.resteasy.microprofile.client.DefaultResponseExceptionMapper"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -9696,7 +9696,7 @@ Method registerClass13 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.apache.commons.logging.impl.Jdk14Logger"
+    LDC (String) "org.jboss.resteasy.microprofile.client.async.AsyncInterceptorRxInvokerProvider"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -10324,7 +10324,7 @@ Method registerClass9 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.eclipse.yasson.JsonBindingProvider"
+    LDC (String) "org.glassfish.json.JsonProviderImpl"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -10740,7 +10740,7 @@ Method registerClass14 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.jboss.resteasy.microprofile.client.DefaultResponseExceptionMapper"
+    LDC (String) "org.jboss.resteasy.core.providerfactory.ResteasyProviderFactoryImpl"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -11317,7 +11317,7 @@ Method registerClass8 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.glassfish.json.JsonProviderImpl"
+    LDC (String) "org.eclipse.yasson.JsonBindingProvider"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -11682,7 +11682,7 @@ Method registerClass15 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.jboss.resteasy.microprofile.client.async.AsyncInterceptorRxInvokerProvider"
+    LDC (String) "org.jboss.resteasy.client.jaxrs.internal.proxy.ProxyBuilderImpl"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0

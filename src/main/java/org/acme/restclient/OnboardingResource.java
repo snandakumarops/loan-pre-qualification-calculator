@@ -151,6 +151,7 @@ public class OnboardingResource {
         FileOutputStream fos = new FileOutputStream(file);
         fos.write(dearr);
         fos.close();
+        System.out.println(file.getAbsolutePath());
 
 
         Response.ResponseBuilder response = Response.ok((Object) file);
@@ -213,7 +214,7 @@ public class OnboardingResource {
         System.out.println(tasks);
 
         List<TaskSummary> latestList = new ArrayList<>();
-        latestList.add(tasks.get(0));
+        latestList.add(tasks.get(latestList.size()-1));
 
         return latestList;
 

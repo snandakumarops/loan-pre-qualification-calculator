@@ -464,7 +464,7 @@ Method deploy_0 : V
     LDC (Boolean) true
     // Method descriptor: (Z)Ljava/lang/Boolean;
     INVOKESTATIC java/lang/Boolean#valueOf
-    ASTORE 8
+    ASTORE 9
     ALOAD 2
     LDC (Integer) 2
     AALOAD
@@ -472,18 +472,18 @@ Method deploy_0 : V
     ALOAD 2
     LDC (Integer) 4
     AALOAD
-    ASTORE 9
+    ASTORE 8
     ALOAD 2
     LDC (Integer) 0
     AALOAD
     CHECKCAST io/quarkus/restclient/runtime/RestClientRecorder
-    ALOAD 8
+    ALOAD 9
     CHECKCAST java/lang/Boolean
     // Method descriptor: ()Z
     INVOKEVIRTUAL java/lang/Boolean#booleanValue
     ALOAD 10
     CHECKCAST java/util/Set
-    ALOAD 9
+    ALOAD 8
     CHECKCAST java/util/Set
     // Method descriptor: (ZLjava/util/Set;Ljava/util/Set;)V
     INVOKEVIRTUAL io/quarkus/restclient/runtime/RestClientRecorder#initializeResteasyProviderFactory
