@@ -59,19 +59,19 @@ Method deploy_0 : V
     LDC (String) "io.quarkus.runtime.ShutdownContext"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 4
+    ASTORE 5
     ALOAD 1
     LDC (String) "proxykey19"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 5
+    ASTORE 4
     ALOAD 2
     LDC (Integer) 0
     AALOAD
     CHECKCAST io/quarkus/arc/runtime/ArcRecorder
-    ALOAD 4
-    CHECKCAST io/quarkus/runtime/ShutdownContext
     ALOAD 5
+    CHECKCAST io/quarkus/runtime/ShutdownContext
+    ALOAD 4
     CHECKCAST io/quarkus/arc/runtime/BeanContainer
     // Method descriptor: (Lio/quarkus/runtime/ShutdownContext;Lio/quarkus/arc/runtime/BeanContainer;)V
     INVOKEVIRTUAL io/quarkus/arc/runtime/ArcRecorder#handleLifecycleEvents
