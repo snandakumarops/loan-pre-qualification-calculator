@@ -212,8 +212,10 @@ public class OnboardingResource {
         }
         System.out.println(tasks);
 
+        List<TaskSummary> latestList = new ArrayList<>();
+        latestList.add(tasks.get(0));
 
-        return tasks;
+        return latestList;
 
 
     }
