@@ -139,25 +139,32 @@ public class OnboardingResource {
     @Produces(MediaType.MULTIPART_FORM_DATA)
     public Response getCaseFileDocs(@javax.ws.rs.PathParam("docId") String docId) throws IOException, ServletException {
 
-        ObjectMapper mapper = new ObjectMapper();
-        System.out.println("docId" + docId);
-        String document = onboardingService.getCaseDoc(docId);
-        System.out.println(document);
-        Map<String, String> mapValue = mapper.readValue(document, Map.class);
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            System.out.println("docId" + docId);
+            String document = onboardingService.getCaseDoc(docId);
+            System.out.println(document);
+            Map<String, String> mapValue = mapper.readValue(document, Map.class);
 
 
-        byte dearr[] = Base64.decodeBase64(mapValue.get("document-content"));
-        File file = new File(mapValue.get("document-name"));
-        FileOutputStream fos = new FileOutputStream(file);
-        fos.write(dearr);
-        fos.close();
-        System.out.println(file.getAbsolutePath());
+            byte dearr[] = Base64.decodeBase64(mapValue.get("document-content"));
+            File file = new File(mapValue.get("document-name"));
+            FileOutputStream fos = new FileOutputStream(file);
+            fos.write(dearr);
+            fos.close();
+            System.out.println(file.getAbsolutePath());
 
 
-        Response.ResponseBuilder response = Response.ok((Object) file);
-        response.header("Content-Disposition", "attachment; filename=\"" + mapValue.get("document-name") + "\"");
+            Response.ResponseBuilder response = Response.ok((Object) file);
+            response.header("Content-Disposition", "attachment; filename=\"" + mapValue.get("document-name") + "\"");
+            System.out.println("call end");
+            return response.build();
+        }catch (Exception e) {
+            e.printStackTrace();
 
-        return response.build();
+        }
+        return null;
+
 
 
     }
@@ -213,10 +220,8 @@ public class OnboardingResource {
         }
         System.out.println(tasks);
 
-        List<TaskSummary> latestList = new ArrayList<>();
-        latestList.add(tasks.get(latestList.size()-1));
 
-        return latestList;
+        return tasks;
 
 
     }
@@ -249,7 +254,7 @@ public class OnboardingResource {
             String caseId = caseIdSample.substring(0, caseIdSample.length() - String.valueOf(map.get("task-proc-inst-id")).length())
                     + String.valueOf(map.get("task-proc-inst-id"));
             String jsonDocs = onboardingService.getCaseFile("docsForReview", caseId);
-            System.out.println("socs"+jsonDocs);
+
 
             List<String> docNames = new ArrayList<>();
             String docId = null;
@@ -297,7 +302,7 @@ public class OnboardingResource {
     @Produces(MediaType.APPLICATION_JSON)
     public void completeLegalReview(String json, @javax.ws.rs.PathParam("taskId") String taskId) throws IOException, ServletException {
 
-        System.out.println(json);
+
         onboardingService.startLegalReview(taskId,"agentLogin");
         onboardingService.completeLegalReview(taskId,json,"agentLogin");
 
