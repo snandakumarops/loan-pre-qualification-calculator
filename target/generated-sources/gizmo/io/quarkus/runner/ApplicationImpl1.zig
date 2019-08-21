@@ -56,10 +56,10 @@ Method doStart : V
     ALOAD 2
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties14
+    NEW io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties15
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties14#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties15#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 2
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
@@ -213,10 +213,10 @@ Method <clinit> : V
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V
     INVOKEINTERFACE io/quarkus/runtime/StartupTask#deploy
-    NEW io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection15
+    NEW io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection14
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection15#<init>
+    INVOKESPECIAL io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection14#<init>
     CHECKCAST io/quarkus/runtime/StartupTask
     ALOAD 0
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;)V

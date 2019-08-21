@@ -143,12 +143,13 @@ public class OnboardingResource {
             ObjectMapper mapper = new ObjectMapper();
             System.out.println("docId" + docId);
             String document = onboardingService.getCaseDoc(docId);
-            System.out.println(document);
+
             Map<String, String> mapValue = mapper.readValue(document, Map.class);
 
 
             byte dearr[] = Base64.decodeBase64(mapValue.get("document-content"));
-            File file = new File(mapValue.get("document-name"));
+            System.out.println(mapValue.get("document-name"));
+            File file = new File(System.getProperty("user.dir")+"/"+mapValue.get("document-name"));
             FileOutputStream fos = new FileOutputStream(file);
             fos.write(dearr);
             fos.close();

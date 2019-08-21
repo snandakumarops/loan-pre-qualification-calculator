@@ -44,7 +44,7 @@ Method deploy_0 : V
     INVOKEVIRTUAL io/quarkus/undertow/runtime/UndertowDeploymentRecorder#servletContextSupplier
     ASTORE 4
     ALOAD 1
-    LDC (String) "proxykey12"
+    LDC (String) "proxykey11"
     ALOAD 4
     // Method descriptor: (Ljava/lang/String;Ljava/lang/Object;)V
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#putValue
