@@ -149,7 +149,7 @@ public class OnboardingResource {
 
             byte dearr[] = Base64.decodeBase64(mapValue.get("document-content"));
             System.out.println(mapValue.get("document-name"));
-            File file = new File(System.getProperty("user.dir")+"/"+mapValue.get("document-name"));
+            File file = new File(System.getProperty("user.dir")+"/"+"test.pdf");
             FileOutputStream fos = new FileOutputStream(file);
             fos.write(dearr);
             fos.close();

@@ -41,7 +41,7 @@ Method deploy_0 : V
     AALOAD
     ASTORE 4
     ALOAD 1
-    LDC (String) "proxykey11"
+    LDC (String) "proxykey12"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
     ASTORE 5
