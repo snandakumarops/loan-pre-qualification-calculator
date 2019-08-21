@@ -92,35 +92,35 @@ Method deploy_0 : V
     LDC (String) "proxykey6"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 12
+    ASTORE 11
     ALOAD 1
     LDC (String) "proxykey33"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
     INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 10
+    ASTORE 9
     ALOAD 2
     LDC (Integer) 4
     AALOAD
-    ASTORE 11
+    ASTORE 10
     LDC (String) "NORMAL"
     // Method descriptor: (Ljava/lang/String;)Lio/quarkus/runtime/LaunchMode;
     INVOKESTATIC io/quarkus/runtime/LaunchMode#valueOf
-    ASTORE 9
+    ASTORE 12
     ALOAD 2
     LDC (Integer) 2
     AALOAD
     CHECKCAST io/quarkus/undertow/runtime/UndertowDeploymentRecorder
     ALOAD 13
     CHECKCAST io/quarkus/runtime/ShutdownContext
-    ALOAD 12
+    ALOAD 11
     CHECKCAST java/util/concurrent/ExecutorService
-    ALOAD 10
+    ALOAD 9
     CHECKCAST io/undertow/servlet/api/DeploymentManager
     ALOAD 5
     CHECKCAST io/quarkus/undertow/runtime/HttpConfig
-    ALOAD 11
+    ALOAD 10
     CHECKCAST java/util/List
-    ALOAD 9
+    ALOAD 12
     // Method descriptor: (Lio/quarkus/runtime/ShutdownContext;Ljava/util/concurrent/ExecutorService;Lio/undertow/servlet/api/DeploymentManager;Lio/quarkus/undertow/runtime/HttpConfig;Ljava/util/List;Lio/quarkus/runtime/LaunchMode;)Lio/quarkus/runtime/RuntimeValue;
     INVOKEVIRTUAL io/quarkus/undertow/runtime/UndertowDeploymentRecorder#startUndertow
     ASTORE 14

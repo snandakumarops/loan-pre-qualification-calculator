@@ -21,6 +21,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -148,15 +149,19 @@ public class OnboardingResource {
 
 
             byte dearr[] = Base64.decodeBase64(mapValue.get("document-content"));
-            System.out.println(mapValue.get("document-name"));
-            File file = new File(System.getProperty("user.dir")+"/"+"test.pdf");
-            FileOutputStream fos = new FileOutputStream(file);
-            fos.write(dearr);
-            fos.close();
-            System.out.println(file.getAbsolutePath());
+//            System.out.println(mapValue.get("document-name"));
+//            File file = new File(System.getProperty("user.dir")+"/"+"test.pdf");
+//            FileOutputStream fos = new FileOutputStream(file);
+//            fos.write(dearr);
+//            fos.close();
+            java.nio.file.Path dir = Files.createTempDirectory("my-dir");
+            java.nio.file.Path fileToCreatePath = dir.resolve(mapValue.get("document-name"));
+            java.nio.file.Path newFilePath = Files.createFile(fileToCreatePath);
+            Files.write(newFilePath,dearr);
+//            System.out.println(file.getAbsolutePath());
 
 
-            Response.ResponseBuilder response = Response.ok((Object) file);
+            Response.ResponseBuilder response = Response.ok((Object) Files.readAllBytes(newFilePath));
             response.header("Content-Disposition", "attachment; filename=\"" + mapValue.get("document-name") + "\"");
             System.out.println("call end");
             return response.build();
