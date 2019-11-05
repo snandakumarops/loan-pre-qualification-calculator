@@ -12,7 +12,7 @@ import javax.ws.rs.*;
 public interface OnboardingService {
 
     @POST
-    @Path("containers/FSI_Client_Onboarding_1.0.0/cases/FSI_Client_Onboarding.ClientOnboarding/instances")
+    @Path("containers/FSI_Client_Onboarding_1.0.0/cases/fsi_onboarding.OnboardingProcess/instances")
     @Consumes("application/json")
     @ClientHeaderParam(name="Authorization", value="Basic cGFtQWRtaW46cmVkaGF0cGFtMSE=")
     String createNewCase(String customer);
