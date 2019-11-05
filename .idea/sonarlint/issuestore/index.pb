@@ -3,12 +3,6 @@
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 Y
 )src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284
-g
-7src/main/java/org/acme/restclient/CountriesService.java,0/b/0b20cb76ee4168f8e68391f42e4fbb7c1be25e4c
-h
-8src/main/java/org/acme/restclient/CountriesResource.java,6/e/6e7260ca0df3b86c98a09da26591bdb1e1c88d43
-^
-.src/main/java/org/acme/restclient/Country.java,3/9/39b895fc4b0a6d702263655097c75a99a4e41baf
 _
 /src/main/java/org/acme/restclient/Customer.java,b/1/b17860cfe2bed87a944f00c491086d5bd3ccf27d
 j
