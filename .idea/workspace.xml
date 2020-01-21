@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/native-image.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/native-image.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ArcProcessor$generateResources12.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ArcProcessor$generateResources12.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingRuntimeInit4.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces8.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$setup2.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection14.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext13.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$boot17.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$boot17.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$build16.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$build16.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean5.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/ApplicationImpl1.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/ApplicationImpl1.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/AutoFeature.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/AutoFeature.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT-runner.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT-runner.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/build-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/META-INF/build-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/quarkus-default-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/META-INF/quarkus-default-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/setup/Default_ComponentsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/setup/Default_ComponentsProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ArcProcessor$generateResources12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ArcProcessor$generateResources12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingRuntimeInit4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$setup2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$boot17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$boot17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$build16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$build16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/ApplicationImpl1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/ApplicationImpl1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/AutoFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/AutoFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfigRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfigRoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/acme/restclient/OnboardingResource_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/acme/restclient/OnboardingResource_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultKieSession_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultKieSession_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultStatelessKieSession_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultStatelessKieSession_Bean.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +63,8 @@
       <file leaf-file-name="OnboardingResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="3330">
+              <caret line="246" column="45" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,24 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.2.Final/jboss-jaxrs-api_2.1_spec-1.0.2.Final-sources.jar!/javax/ws/rs/core/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="156" column="49" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LegalReview.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5385">
-              <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="customerprofile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +102,7 @@
       <file leaf-file-name="TaskSummary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="375">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#257#258#0" expanded="true" />
@@ -89,7 +117,7 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="270">
               <caret line="18" column="38" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="e#611#612#0" expanded="true" />
@@ -108,7 +136,7 @@
       <file leaf-file-name="OnboardingService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
+            <state relative-caret-position="180">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,11 +145,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="16" selection-start-line="43" selection-start-column="1" selection-end-line="48" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUpload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4710">
+              <caret line="314" selection-start-line="313" selection-start-column="16" selection-end-line="314" />
             </state>
           </provider>
         </entry>
@@ -137,12 +183,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>8762</find>
-      <find>fail</find>
-      <find>off</find>
       <find>Gettask</find>
       <find>aler</find>
-      <find>upload</find>
       <find>case</find>
       <find>docs</find>
       <find>new ca</find>
@@ -151,7 +193,6 @@
       <find>baseURL</find>
       <find>ng</find>
       <find>clickRef</find>
-      <find>file</find>
       <find>function</find>
       <find>casefile</find>
       <find>openFile</find>
@@ -166,10 +207,16 @@
       <find>System.out.p</find>
       <find>postCase</find>
       <find>FSI_Client_Onboarding.ClientOnboarding</find>
+      <find>legalRe</find>
       <find>create</find>
+      <find>file</find>
+      <find>upload</find>
+      <find>agentLogin</find>
+      <find>getTas</find>
     </findStrings>
     <replaceStrings>
       <replace>fsi_onboarding.OnboardingProcess</replace>
+      <replace>FSI_Client_Onboarding.ClientOnboarding</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -198,8 +245,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java" />
       </list>
     </option>
@@ -211,7 +258,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="832" />
@@ -222,6 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +324,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +464,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="832" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
@@ -432,7 +479,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.45034012" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.34978542" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3597997" />
       <window_info anchor="bottom" id="SonarLint" order="0" weight="0.3292517" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -454,7 +501,7 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="SonarLint" order="0" weight="0.3292517" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.34978542" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.35479257" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -484,7 +531,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java</url>
-          <line>187</line>
+          <line>189</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -784,27 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="48" column="16" selection-start-line="43" selection-start-column="1" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4710">
-          <caret line="314" selection-start-line="313" selection-start-column="16" selection-end-line="314" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="71" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.2.Final/jboss-jaxrs-api_2.1_spec-1.0.2.Final-sources.jar!/javax/ws/rs/core/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
@@ -835,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="375">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#257#258#0" expanded="true" />
@@ -848,7 +874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="270">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="e#611#612#0" expanded="true" />
@@ -863,17 +889,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="16" selection-start-line="43" selection-start-column="1" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="71" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4710">
+          <caret line="314" selection-start-line="313" selection-start-column="16" selection-end-line="314" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="3330">
+          <caret line="246" column="45" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -882,7 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />

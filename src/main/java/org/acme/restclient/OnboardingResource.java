@@ -79,12 +79,12 @@ public class OnboardingResource {
                     objBegin += ",";
                 }
                 byte[] bytes = IOUtils.toByteArray(inputStream);
-                String base64 = StringUtils.newStringUtf8(Base64.encodeBase64(bytes, false));
+                String base64 = StringUtils.newStringUtf8(Base64.encodeBase64(bytes, true));
                 String docMgmSystemUpdate = "{\n" +
-                        "\"document-id\":\"firstdoc\",  \n" +
+
                         "\"document-name\" : \""+fileName+"\",\n" +
                         "  \"document-link\" : null,\n" +
-                        "  \"document-size\" : 0,\n" +
+                        "  \"document-size\" : 17,\n" +
                         "  \"document-last-mod\" : {\n" +
                         "    \"java.util.Date\" : 1539936629148\n" +
                         "  },\n" +
@@ -100,7 +100,7 @@ public class OnboardingResource {
                         "\"name\":" + id + "," +
                         "\"link\": \"\"," +
                         "\"lastModified\": \"2018-01-10\"," + " \"attributes\": {" +
-                        "\"_UPDATED_\": \"true\"" +
+                        "\"_UPDATED_\": \"false\"" +
                         "}" +
                         "}" +
                         "}";
@@ -109,7 +109,9 @@ public class OnboardingResource {
 
             onboardingService.startTask(taskId,"pamAdmin");
 
-            onboardingService.uploadDoc(taskId, objBegin + "]}","pamAdmin");
+            System.out.println(objBegin+"]}");
+
+            onboardingService.uploadDoc(taskId, objBegin+"]}","pamAdmin");
         } catch (Exception e) {
             e.printStackTrace();
         }

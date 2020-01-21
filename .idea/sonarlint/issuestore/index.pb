@@ -13,3 +13,7 @@ b
 2src/main/java/org/acme/restclient/TaskSummary.java,2/c/2cd0c24eae1a93425029be15fcb588788f1d22a7
 f
 6src/main/resources/META-INF/resources/LegalReview.html,5/2/52e65e0cf756e6ba73a32545c2604f9ceb7d7429
+i
+9src/main/java/org/acme/restclient/OnboardingResource.java,7/5/758bdff776aa5f782d6f1ca44a12172ed35e9625
+h
+8src/main/java/org/acme/restclient/OnboardingService.java,4/2/42210adb98ed36e74c41b4a339f666987569f6d4

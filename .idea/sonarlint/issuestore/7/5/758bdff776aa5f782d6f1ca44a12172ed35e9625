@@ -1,0 +1,47 @@
+
+8squid:S1643O"Use a StringBuilder instead.(Œ¬ã‡ıÿÿÿÿ
+8squid:S1643c"Use a StringBuilder instead.(—İç©ÿÿÿÿÿ
+bsquid:S3027—"JPut single-quotes around '#' to use the faster "lastIndexOf(char)" method.(îÙì
+¨%squid:RedundantThrowsDeclarationCheck;"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(şç ›
+®%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(¡¢¸˜úÿÿÿÿ
+®%squid:RedundantThrowsDeclarationCheck¸"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(¼íÀÊúÿÿÿÿ
+®%squid:RedundantThrowsDeclarationCheckñ"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(­âËùÿÿÿÿ
+£%squid:RedundantThrowsDeclarationCheck·"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(À³îÒúÿÿÿÿ
+®%squid:RedundantThrowsDeclarationCheck·"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(À³îÒúÿÿÿÿ
+Usquid:S1197™"8Move the array designator from the variable to the type.(£ı’Œÿÿÿÿÿ
+hsquid:S1192÷"KDefine a constant instead of duplicating this literal "agentLogin" 3 times.(¿¨ğıøÿÿÿÿ
+osquid:S1192Í"RDefine a constant instead of duplicating this literal "task-proc-inst-id" 4 times.(³´£Ãùÿÿÿÿ
+esquid:S1192n"IDefine a constant instead of duplicating this literal "pamAdmin" 3 times.(È€¼Æÿÿÿÿÿ
+csquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(ÊÒªÓ
+hsquid:CommentedOutCodeLine£"<This block of commented-out lines of code should be removed.(ÕËÅÜúÿÿÿÿ
+csquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(†ªõ–
+hsquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+O
+squid:S106/"9Replace this use of System.out or System.err by a logger.(Ç 
+O
+squid:S1061"9Replace this use of System.out or System.err by a logger.(€“à
+O
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ö¡¹ê
+T
+squid:S106b"9Replace this use of System.out or System.err by a logger.(®÷ô•şÿÿÿÿ
+O
+squid:S106p"9Replace this use of System.out or System.err by a logger.(»ô¤Ô
+U
+squid:S106“"9Replace this use of System.out or System.err by a logger.(šıÂ–úÿÿÿÿ
+P
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(ğß÷¾
+U
+squid:S106å"9Replace this use of System.out or System.err by a logger.(å÷´²ûÿÿÿÿ
+P
+squid:S106ù"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ
+U
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(ûª†–ûÿÿÿÿ
+|squid:S1488…"eImmediately return this expression instead of assigning it to the temporary variable "finalFileName".(êÁË
+?squid:S1905"'Remove this unnecessary cast to "List".(´ß¢Æ
+Bsquid:S1481F"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+osquid:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(­âËùÿÿÿÿ
+Lsquid:S1854k"5Remove this useless assignment to local variable "i".(Ì‚ˆÌ
+gsquid:S1858."K"customer" is already a string, there's no need to call "toString()" on it.(ã¡÷Öüÿÿÿÿ
+?squid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148t"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148«"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
